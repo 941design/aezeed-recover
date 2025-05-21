@@ -6,7 +6,7 @@ This document describes a manual test protocol.
 
 + info splash screen is displayed initially in **normal mode** (no flags)
 + info splash screen is displayed initially in **dev mode** (`--dev` flag)
-+ info splash screen is skippend in **consent mode** (`--consent` flag)
++ info splash screen is skipped in **consent mode** (`--consent` flag)
 + quit **exits program**
 + **default selection** is quit
 + quit is **disabled until seen**, i.e. scrolled to bottom
@@ -78,7 +78,7 @@ This document describes a manual test protocol.
 + finding wrong word works for **custom password**
 + when wrong word is found, the **seed view is updated** accordingly
 + **highlight** (background) the replaced words in seed view
-+ **irretrievable mnemonic** (wrong password, to many wrong words) returns at
++ **irretrievable mnemonic** (wrong password, too many wrong words) returns at
   some
   point with failure
 
