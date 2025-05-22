@@ -16,9 +16,6 @@ purpose of recovery.
 
 (see [TODO](#todo) for upcoming features)
 
-If you need additional help recovering your seed, please
-contact [recovery@mustwork.de](mailto:recovery@mustwork.de).
-
 ## Similar Projects
 
 + [btcrecover](https://github.com/gurnec/btcrecover/) written in python
@@ -35,11 +32,11 @@ contact [recovery@mustwork.de](mailto:recovery@mustwork.de).
 ## Installation
 
 Download the appropriate binary
-from [releases](https://github.com/mustwork/aezeed-recover/releases), or build
+from [releases](https://github.com/941design/aezeed-recover/releases), or build
 from source:
 
 ```sh
-git clone https://github.com/mustwork/aezeed-recover.git
+git clone https://github.com/941design/aezeed-recover.git
 cd aezeed-recover
 go install
 ```
@@ -110,6 +107,8 @@ writing it down, i.e. columns are mistaken for rows.
 ## Donation
 
 BTC: bc1qfkv06pjcgq280f42nu66ktdfeer7f06lmtgerp
+
+Thank you very much for your support!
 
 ## License
 
