@@ -18,7 +18,6 @@ func TestFindSingleMissingWord(t *testing.T) {
 		t.Skip("slow test")
 	}
 	for i := 0; i < len(fullMnemonic); i++ {
-		i := i
 		t.Run(fmt.Sprintf("pos_%d", i), func(t *testing.T) {
 			partial := append([]string{}, fullMnemonic[:i]...)
 			partial = append(partial, fullMnemonic[i+1:]...)
@@ -60,7 +59,6 @@ func TestFindTwoMissingWords(t *testing.T) {
 	}
 	for i := 0; i < len(fullMnemonic); i++ {
 		for j := i + 1; j < len(fullMnemonic); j++ {
-			i, j := i, j
 			t.Run(fmt.Sprintf("pos_%d_%d", i, j), func(t *testing.T) {
 				partial := append([]string{}, fullMnemonic[:i]...)
 				partial = append(partial, fullMnemonic[i+1:j]...)
